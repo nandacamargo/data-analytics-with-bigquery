@@ -1,5 +1,8 @@
 -- First click attribution
 
+# Ignoring cases where some user has multiple transactions in the specified date range
+# So all the transaction revenue and purchase will be credit to that session
+
 WITH revenue_summary AS (
     SELECT 
     user_pseudo_id,
